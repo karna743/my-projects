@@ -64,6 +64,6 @@ h3{
         height: 80vh;
     }
     .homeMainDiv{
-        width: 50vw;
-    }
+        min-width: 200px;
+        
 }
