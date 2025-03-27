@@ -57,19 +57,3 @@ h3{
     border-radius: 10px;
     border: none;
 }
-
-@media (max-width:480px){
-    .container{
-        display: flex;
-        flex-direction: column;
-    }
-    p{
-        width: 50vw;
-    }
-    h3{
-        width: 30vw;
-    }
-    .buttonDiv{
-        width: 50vw;
-    }
-}
