@@ -3,29 +3,32 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
-            <div class="homeMainDiv">
-                <h3>R.C.B</h3>
-                <p id="homeScore">0</p>
-                <div class="buttonDiv">
-                    <button onclick="homeOne()">+1</button>
-                    <button onclick="homeTwo()">+2</button>
-                    <button onclick="homeThree()">+3</button>
+        <div class="topMain">
+            <div class="container">
+                <div class="homeMainDiv">
+                    <h3>R.C.B</h3>
+                    <p id="homeScore">0</p>
+                    <div class="buttonDiv">
+                        <button onclick="homeOne()">+1</button>
+                        <button onclick="homeTwo()">+2</button>
+                        <button onclick="homeThree()">+3</button>
+                    </div>
+                </div>
+                <div class="homeMainDiv">
+                    <h3>C.S.K</h3>
+                    <p id="guestScore">0</p>
+                    <div class="buttonDiv">
+                        <button onclick="guestOne()">+1</button>
+                        <button onclick="guestTwo()">+2</button>
+                        <button onclick="guestThree()">+3</button>
+                    </div>
                 </div>
             </div>
-            <div class="homeMainDiv">
-                <h3>C.S.K</h3>
-                <p id="guestScore">0</p>
-                <div class="buttonDiv">
-                    <button onclick="guestOne()">+1</button>
-                    <button onclick="guestTwo()">+2</button>
-                    <button onclick="guestThree()">+3</button>
-                </div>
+            <div class="newGameDiv">
+                <button onclick="newGame()">New Game</button>
             </div>
         </div>
-        <div class="newGameDiv">
-            <button onclick="newGame()">New Game</button>
-        </div>
+        
         <script src="index.js"></script>
     </body>
 </html>
