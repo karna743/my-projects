@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+}
+
+.homeMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonDiv{
+    margin: 20px;
+}
+.newGameDiv{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+button{
+    background-color: transparent;
+    color: oldlace;
+    border-radius: 10px;
+    margin: 4px;
+    border: solid;
+    padding: 8px;
+    border-width: 1px;
+    
+    
+}
+.homeButtonOne{
+    
+}
+p{
+    font-family: Cursed Timer ULiL;
+    background-color: black;
+    border-radius: 10px;
+    width: 150px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 90px;
+    text-align: center;
+    color: #F94F6D;
+
+}
