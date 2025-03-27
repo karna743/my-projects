@@ -61,6 +61,9 @@ h3{
 
 @media (min-width:786px){
     .container{
-        height: 100vh;
+        height: 80vh;
+    }
+    .homeMainDiv{
+        width: 50vw;
     }
 }
